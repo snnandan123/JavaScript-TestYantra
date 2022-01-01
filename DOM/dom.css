@@ -1,0 +1,21 @@
+.labelTag{
+    color:chocolate;
+    font-weight: bold;
+}
+
+.labelTag{
+    background-color: darkblue;
+    border: 1px solid tomato;
+}
+
+
+#namelist{
+    /*
+        space required by the elements will
+        be preserved
+     */
+     /* visibility: hidden; */
+     /*
+        space required by the ele 
+      */
+}

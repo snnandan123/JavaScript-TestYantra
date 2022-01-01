@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        
+        var myAge=2
+        if(myAge>=18)
+        {
+            console.log('Eligible for voting ');
+
+        }
+        else
+        {
+            console.log('Not Eligible for Voting')
+        }
+
+        myAge >= 18 ? console.log('Eligible for voting') : console.log('Not eligble for voting ');
+
+        //Using if condition
+        //  var per=65;
+
+        // if(per<0 || per >100 || typeof(per)!=='number' || isNaN(per)===true)
+        //     {
+        //         console.log('Invalid');
+        //     }
+        //     else if(per>=70 && per<=100)
+        //     {
+        //         console.log('FCD');
+        //     }
+        //     else if(per>=60 && per<70)
+        //     {
+        //         console.log("First class");
+        //     }
+        //     else if(per>=35 && per<60)
+        //     {
+        //         console.log('Pass');
+        //     }
+        //     else{
+        //         console.log('Fail');
+        //     }
+
+            //Using the ternary operator
+            
+            // (per<0 || per>100 || typeof(per)!=='number' || isNaN(per)===true)?console.log('Invalid'):
+            //     (per>=70 && per <=100)?console.log("FCD"):
+            //     (per >=60 && per<70)?console.log('First class'):
+            //     (per >=35 && per <60) ?console.log("Pass"):console.log('Fail');
+            //
+            //Using the ternary with direct values
+            var per=90;
+            var result=(per<0 || per>100 || typeof(per)!=='number' || isNaN(per)===true)?'Invalid':
+                (per>=70 && per <=100)?'FCD':
+                (per >=60 && per<70)?'First class':
+                (per >=35 && per <60) ?console.log("Pass"):'Fail'
+                console.log('Result',result);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
